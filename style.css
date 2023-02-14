@@ -1,0 +1,632 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(117, 111, 111);
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    /* padding: 0.5rem; */
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-links{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.nav a{
+    padding: 1rem;
+    text-decoration: none;
+    color: #fff;
+}
+.nav a:hover{
+    background: green;
+    color: #fff;
+}
+.nav-btn{
+    display: flex;
+    justify-content: end;
+}
+
+
+
+/* search sec */
+.search {
+    background-color: #282A35;
+    color: #D9EEE1;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-section {
+    max-width: 350px;
+    margin: 1rem auto;
+
+}
+
+.form-section {
+    display: flex;
+    justify-content: center;
+}
+
+
+.w3content h1 {
+    font-size: 60px !important;
+}
+
+.w3content h3 {
+    color: #eba2a2;
+}
+
+.w3content input {
+    width: 100%;
+    border: none;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    height: 2.5rem;
+    padding: 1rem;
+}
+
+.w3content input:active,
+.w3content input:focus {
+    outline: none;
+}
+
+.w3content input::placeholder {
+    font-weight: 600;
+
+}
+
+.w3content .search-section button {
+    /* height: 2.5rem; */
+    border: none;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    padding: 0 1rem;
+    background-color: green;
+}
+
+.w3content .search-section button svg {
+    color: white;
+    stroke-width: 2px;
+}
+
+.w3content .search-section button:hover {
+    background-color: rgb(13, 69, 13);
+}
+
+.w3content p {
+    font-size: 30px;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.w3content p a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.w3content p a:hover {
+    text-decoration: none;
+    color: rgb(152, 140, 140);
+}
+
+.html {
+    display: flex;
+    background-color: #D9EEE1 !important;
+    color: #282A35;
+    margin-top: -5px;
+}
+
+/* html left section */
+.html .left p {
+    color: black !important;
+    border: none;
+}
+
+.html .sec {
+
+    width: 50%;
+    margin: auto;
+    height: auto;
+
+}
+
+.html .left a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 0 1rem;
+    font-size: larger;
+    margin-top: 0.6rem !important;
+
+
+
+
+}
+
+.html .left .btn1 {
+    background-color: green;
+    border-radius: 2rem;
+    width: 44%;
+    margin: auto;
+    color: white;
+}
+
+.html .left .btn2 {
+    background-color: rgb(249, 213, 8);
+    border-radius: 2rem;
+    width: 44%;
+    margin: auto
+}
+
+.html .left .btn3 {
+    background-color: rgb(24, 26, 24);
+    border-radius: 2rem;
+    color: white;
+    width: 44%;
+    margin: auto;
+}
+
+.html .left .btn4 {
+    background-color: rgb(208, 88, 126);
+    border-radius: 2rem;
+    width: 44%;
+    margin: auto;
+}
+
+.html .left {
+    text-align: center;
+    font-size: 30px;
+}
+
+/* html right section */
+.html .right {
+    font-size: 25px;
+    padding: 2rem;
+}
+
+.html .right .try {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(3, 78, 3);
+    border-radius: 16px;
+    padding: 0.5rem 1rem;
+
+    font-size: 15px;
+
+
+}
+
+.html_example {
+    width: 80%;
+    background-color: rgb(186, 180, 180);
+    padding: 2rem;
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.html .examp {
+    border-left: 5px solid green;
+    background-color: white;
+    margin: 1rem 0;
+    padding: 0.5rem;
+}
+
+/* new section  */
+/* css left section */
+.css {
+    background-color: rgb(247, 247, 135);
+    display: flex;
+}
+
+.css .sec {
+    width: 50%;
+    margin: auto;
+}
+
+.css .left a {
+    display: block;
+    text-decoration: none;
+    margin-top: 0.5rem !important;
+    font-size: larger;
+}
+
+.css .left {
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.css .left p {
+    color: black;
+}
+
+.css .left .btn1 {
+    background-color: rgb(45, 73, 45);
+    border-radius: 2rem;
+    width: 44%;
+    margin: auto;
+    color: white;
+}
+
+.css .left .btn2 {
+    background-color: rgb(24, 26, 24);
+    border-radius: 2rem;
+    color: white;
+    width: 44%;
+    margin: auto;
+}
+
+.css .left .btn3 {
+    background-color: rgb(235, 124, 176);
+    border-radius: 2rem;
+    color: rgb(11, 7, 7);
+    width: 44%;
+    margin: auto;
+}
+
+/* css right section */
+.css .right {
+    font-size: 25px;
+    padding: 2rem;
+}
+
+.css .right .try {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(3, 78, 3);
+    border-radius: 16px;
+    padding: 0.5rem 1rem;
+
+    font-size: 15px;
+}
+
+.css_example {
+    width: 80%;
+    background-color: rgb(186, 180, 180);
+    padding: 2rem;
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.css .examp {
+    border-left: 5px solid green;
+    background-color: white;
+    margin: 1rem 0;
+    padding: 0.5rem;
+}
+
+/* js section
+ */
+/* js left sec */
+.js {
+    background-color: rgb(35, 35, 48);
+    display: flex;
+}
+
+.js .sec {
+    width: 50%;
+    margin: auto;
+}
+
+.js .left a {
+    display: block;
+    text-decoration: none;
+    margin-top: 0.5rem !important;
+    font-size: larger;
+}
+
+.js .left {
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.js .left h1,
+.left p {
+    color: #D9EEE1;
+}
+
+.js .left .btn1 {
+    background-color: rgb(45, 73, 45);
+    border-radius: 2rem;
+    width: 44%;
+    margin: auto;
+    color: white;
+}
+
+.js .left .btn2 {
+    background-color: rgb(234, 240, 234);
+    border-radius: 2rem;
+    color: rgb(16, 15, 15);
+    width: 44%;
+    margin: auto;
+}
+
+.js .left .btn3 {
+    background-color: rgb(235, 124, 176);
+    border-radius: 2rem;
+    color: rgb(11, 7, 7);
+    width: 44%;
+    margin: auto;
+}
+
+/* js right section  */
+.js .right {
+    font-size: 25px;
+    padding: 2rem;
+}
+
+.js .right .try {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(3, 78, 3);
+    border-radius: 16px;
+    padding: 0.5rem 1rem;
+    font-size: 15px;
+}
+
+.js_example {
+    width: 80%;
+    background-color: rgb(186, 180, 180);
+    padding: 2rem;
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.js .examp {
+    border-left: 5px solid green;
+    background-color: white;
+    margin: 1rem 0;
+    padding: 0.5rem;
+}
+
+/* python section  */
+/* left */
+.python {
+    background-color: rgb(206, 206, 199);
+    display: flex;
+    padding: 3rem 0;
+}
+
+.python .sec {
+    width: 50%;
+    margin: auto;
+}
+
+.python .left a {
+    display: block;
+    text-decoration: none;
+    margin-top: 0.5rem !important;
+    font-size: larger;
+}
+
+.python .left {
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.python .left p {
+    color: black;
+}
+
+.python .left .btn1 {
+    background-color: rgb(45, 73, 45);
+    border-radius: 2rem;
+    width: 44%;
+    margin: auto;
+    color: white;
+}
+
+.python .left .btn2 {
+    background-color: rgb(24, 26, 24);
+    border-radius: 2rem;
+    color: white;
+    width: 44%;
+    margin: auto;
+}
+
+.python .left .btn3 {
+    background-color: rgb(235, 124, 176);
+    border-radius: 2rem;
+    color: rgb(11, 7, 7);
+    width: 44%;
+    margin: auto;
+}
+
+/* python right section */
+.python .right {
+    font-size: 25px;
+    padding: 2rem;
+}
+
+.python .right .try {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(3, 78, 3);
+    border-radius: 16px;
+    padding: 0.5rem 1rem;
+    font-size: 15px;
+}
+
+.python_example {
+    width: 80%;
+    background-color: rgb(186, 180, 180);
+    padding: 2rem;
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.python .examp {
+    border-left: 5px solid green;
+    background-color: white;
+    margin: 1rem 0;
+    padding: 0.5rem;
+}
+
+/* sql sec */
+/* sql left */
+.sql {
+    background-color: rgb(136, 219, 234);
+    display: flex;
+}
+
+.sql .sec {
+    width: 50%;
+    margin: auto;
+}
+
+.sql .left a {
+    display: block;
+    text-decoration: none;
+    margin-top: 0.5rem !important;
+    font-size: larger;
+}
+
+.sql .left {
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.sql .left p {
+    color: black;
+}
+
+.sql .left .btn1 {
+    background-color: rgb(45, 73, 45);
+    border-radius: 2rem;
+    width: 44%;
+    margin: auto;
+    color: white;
+}
+
+.sql .left .btn2 {
+    background-color: rgb(24, 26, 24);
+    border-radius: 2rem;
+    color: white;
+    width: 44%;
+    margin: auto;
+}
+
+.sql .left .btn3 {
+    background-color: rgb(235, 124, 176);
+    border-radius: 2rem;
+    color: rgb(11, 7, 7);
+    width: 44%;
+    margin: auto;
+}
+
+/* right sec */
+.sql .right {
+    font-size: 25px;
+    padding: 2rem;
+}
+
+.sql .right .try {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(3, 78, 3);
+    border-radius: 16px;
+    padding: 0.5rem 1rem;
+    font-size: 15px;
+}
+
+.sql_example {
+    width: 80%;
+    background-color: rgb(186, 180, 180);
+    padding: 2rem;
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.sql .examp {
+    border-left: 5px solid green;
+    background-color: white;
+    margin: 1rem 0;
+    padding: 0.5rem;
+}
+
+/* 6 blocksection  */
+.blockmain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.block1,
+.block2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.php {
+    background-color: pink;
+    width: 500px;
+
+}
+
+.java {
+    background-color: white;
+    color: black;
+    width: 500px;
+}
+
+.w3css {
+    background-color: rgb(118, 174, 234);
+    width: 500px;
+
+}
+
+.Jquery {
+    background-color: rgb(229, 229, 142);
+    width: 500px;
+}
+
+.Cplus {
+    background-color: rgb(230, 216, 216);
+    width: 500px;
+}
+
+.Bootstrap {
+    background-color: rgb(208, 208, 225);
+    width: 500px;
+}
+
+@media (max-width:600px) {
+    .w3content h1 {
+        text-align: center;
+        font-size: 50px !important;
+    }
+    .search {
+       text-align: center;
+    }
+}
+
+@media (max-width:480px) {
+    .w3content h1 {
+        font-size: 35px !important;
+    }
+}
